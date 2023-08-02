@@ -18,9 +18,9 @@ class Page implements \Iterator
         $this->query = $query;
 
         if ($limit === null) {
-            $limit = request()->get('limit', 15);
+            $limit = request()->get('limit', 15) ?? 15;
         }
-        $pageNum = request()->get('page', 1);//页码
+        $pageNum = request()->get('page', 1) ?? 1;//页码
         $total = $query->count();
         $startNum = $limit * ($pageNum - 1);//起始值
 
