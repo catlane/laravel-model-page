@@ -38,7 +38,7 @@ class Page implements \Iterator
         return [
             'data' => $this->data->toArray(),
             'total' => $this->total,
-            'pageTotal' => $this->pageTotal,
+            'page_total' => $this->pageTotal,
             'now_page' => $this->nowPage,
             'limit' => $this->limit,
             'last_page' => $this->last_page
