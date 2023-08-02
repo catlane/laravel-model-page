@@ -16,6 +16,9 @@
         "php": ">=7.1.0"
     },
     "autoload": {
+        "psr-4": {
+            "Catlane\\LaravelModelPage\\": "src/"
+        },
         "files": [
             "src/helper.php"
         ]
