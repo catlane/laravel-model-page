@@ -1,35 +1,23 @@
 {
-    "name": "catlane/laravel-page",
+    "name": "catlane/laravel-model-page",
     "alias": "",
-    "description": "Description...",
+    "description": "laravel简洁分页",
     "type": "library",
-    "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/catlane/laravel-page",
+    "keywords": ["laravel", "page", "larave-page"],
+    "homepage": "https://github.com/catlane/laravel-model-page",
     "license": "MIT",
     "authors": [
         {
-            "name": "your name",
-            "email": "your email"
+            "name": "catlane",
+            "email": "catlane@foxmail.com"
         }
     ],
     "require": {
-        "php": ">=7.1.0",
-        "dcat/laravel-admin": "~2.0"
+        "php": ">=7.1.0"
     },
     "autoload": {
-        "psr-4": {
-            "Catlane\\LaravelPage\\": "src/"
-        },
         "files": [
             "src/helper.php"
         ]
-    },
-    "extra": {
-        "dcat-admin": "Catlane\\LaravelPage\\LaravelPageServiceProvider",
-        "laravel": {
-            "providers": [
-                "Catlane\\LaravelPage\\LaravelPageServiceProvider"
-            ]
-        }
     }
 }

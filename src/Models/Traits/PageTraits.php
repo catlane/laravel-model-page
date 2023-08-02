@@ -1,8 +1,8 @@
 <?php
-namespace Catlane\LaravelPage\Models\Traits;
+namespace Catlane\LaravelModelPage\Models\Traits;
 
 
-use Catlane\LaravelPage\Models\Interfaces\Page;
+use Catlane\LaravelModelPage\Models\Interfaces\Page;
 
 /**
  * 自定义分页类

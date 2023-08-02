@@ -1,5 +1,5 @@
 <?php
-namespace Catlane\LaravelPage\Models\Interfaces;
+namespace Catlane\LaravelModelPage\Models\Interfaces;
 class Page implements \Iterator
 {
     private $position = 0;//指针指向0
